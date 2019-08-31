@@ -130,3 +130,4 @@ dmypy.json
 weibo/
 .vscode/
 xgboost_test.py
+dataset/
