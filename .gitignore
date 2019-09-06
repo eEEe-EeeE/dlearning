@@ -129,5 +129,5 @@ dmypy.json
 .idea/
 weibo/
 .vscode/
-xgboost_test.py
 dataset/
+imgs/
