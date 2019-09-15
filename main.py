@@ -5,6 +5,7 @@ from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from gensim.test.utils import common_texts
 from gensim.models.word2vec import LineSentence
 from gensim.test.utils import get_tmpfile
+from nltk.classify import maxent
 
 
 def main():
@@ -14,7 +15,6 @@ def main():
     f1 = open("weibo/dataset/weibo_train_data1.txt", "r", encoding="utf-8")
     f2 = open("weibo/dataset/weibo_train_data2.txt", "r", encoding="utf-8")
     print(len(f1.readlines()) + len(f2.readlines()) == delimite * 2)
-    
 
 
 if __name__ == '__main__':
