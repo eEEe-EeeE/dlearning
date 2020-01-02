@@ -1,3 +1,11 @@
+# custom
+.idea/
+weibo/
+.vscode/
+imgs/
+hefei/
+dataset/
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
@@ -124,11 +132,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# custom
-.idea/
-weibo/
-.vscode/
-imgs/
-hefei/dataset/
-hefei/output/
